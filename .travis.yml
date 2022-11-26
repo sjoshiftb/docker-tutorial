@@ -14,8 +14,8 @@ deploy:
     - region: "ap-south-1"
     - app: "frontend"
     - env: "Frontend-env"
-	- bucket_name: "elasticbeanstalk-ap-south-1-883199503448"
-	- bucket_path: "frontend"
+    - bucket_name: "elasticbeanstalk-ap-south-1-883199503448"
+    - bucket_path: "frontend"
 	on: 
 		branch: main
 		access_key_id: $AWS_ACCESS_KEY
